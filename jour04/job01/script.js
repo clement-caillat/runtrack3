@@ -5,7 +5,7 @@ $(document).ready(function(){
             url: "expression.txt",
             dataType: 'text',
             success: function(data) {
-                $('body').append('<p>' + data+ '</p>');
+                $('body').append('<p>' + data + '</p>');
             }
         })
     })
